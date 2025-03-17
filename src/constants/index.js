@@ -335,8 +335,8 @@ const navLinks = [
   },
   {
     id: 3,
-    name: 'Work',
-    url: '/#work',
+    name: 'Scholarships',
+    url: '/#scholarship',
   },
   {
     id: 4,

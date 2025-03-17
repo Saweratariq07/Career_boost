@@ -13,21 +13,21 @@ const Home = () => (
   >
     <div className={style.container}>
       <p className={style.intro}>
-        Hi, I&apos;m
+        Hi, 
         {' '}
         <motion.span variants={fadeIn('', '', 0.1, 1)} className={style.name}>
-          Noor-ul-ain
+        Supercharge Your Career
         </motion.span>
       </p>
       <p className={style.intro}>
-        Also known as
+      & Unlock  Your 
         {' '}
         <motion.span variants={fadeIn('', '', 0.3, 1)} className={style.name}>
-          Noor
+        True Potential! 🚀
         </motion.span>
       </p>
       <motion.p variants={fadeIn('', '', 0.5, 1)} className={style.desc}>
-        I am a full-stack web developer
+      Learn in-demand skills, get career guidance, and land your dream job
       </motion.p>
       <motion.button
         variants={fadeIn('', '', 0.6, 1)}
@@ -40,10 +40,10 @@ const Home = () => (
         }}
       >
         <span className={style.btn_hover}>
-          Check out my work
+        Explore More
         </span>
         <span className={style.btn}>
-          Check out my work
+          Get Started
         </span>
         <MdOutlineArrowForwardIos className={style.arrow} />
       </motion.button>

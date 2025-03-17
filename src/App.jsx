@@ -4,11 +4,12 @@ import Home from './components/Home';
 import About from './components/About';
 import Service from './components/Service';
 import TechStack from './components/TechStack';
-import Work from './components/Work';
+import Work from './components/Scholarships';
 import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import StarsCanvas from './components/Stars';
+import Scholarships from './components/Scholarships';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         <Navbar />
         <About />
         <TechStack />
-        <Service />
+      <Scholarships/>
+        {/* <Service /> */}
         <Work />
         <div className="relative mt-24 pb-28"><Testimonial /></div>
         <div className="contact mb-80"><Contact /></div>
