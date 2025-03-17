@@ -257,7 +257,7 @@ const testimonials = [
     image: 'https://avatars.githubusercontent.com/u/77187003?v=4',
     text: 'I really am comfortable with collaborating and coding with Barry. His ingenious ideas give me a lot of ideas solving a problem multiple ways.',
     country: 'India',
-    // linkedIn: 'https://www.linkedin.com/in/ahroniy/',
+  
   },
   {
     id: 2,
@@ -265,7 +265,6 @@ const testimonials = [
     image: 'https://media.licdn.com/dms/image/D4D35AQHOKsZ2nSaTjg/profile-framedphoto-shrink_400_400/0/1665541124692?e=1721469600&v=beta&t=Evk76YZRsti88Lyr1khjrlxcZKF8v2hrbA3G7YLhIz4',
     text: "Throughout our collaboration, I was consistently impressed by Barry's professionalism, attention to detail, and ability to adapt to changing requirements.",
     country: 'United Arab Emirates',
-    // linkedIn: 'https://www.linkedin.com/in/racheleno/',
   },
   {
     id: 3,
@@ -273,7 +272,6 @@ const testimonials = [
     image: 'https://media.licdn.com/dms/image/D4D03AQF6A-cET7akGQ/profile-displayphoto-shrink_400_400/0/1687861230806?e=1726099200&v=beta&t=C1jrASsQ8AXgmkVrndSBMyBfh7eTBQ_pe2VG79FSNN0',
     text: 'He possesses a deep understanding of the latest technologies and trends in his field, allowing him to tackle complex challenges with ease.',
     country: 'Pakistan',
-    // linkedIn: 'https://www.linkedin.com/in/muhammad-talha-hanif/',
   },
   {
     id: 4,
@@ -281,7 +279,6 @@ const testimonials = [
     image: 'https://media.licdn.com/dms/image/D4D03AQE1F2tqE5cttw/profile-displayphoto-shrink_400_400/0/1694205105262?e=1726099200&v=beta&t=TYftRu2dWsY-5eUgZSsorbbURiQMGtGVOcmcJeDrsGQ',
     text: 'His kindness and patience with his peers makes him easy to work with no matter the difficulty, and that reflects as well when it comes to helping others in his team or explaining something when need be',
     country: 'South Africa',
-    // linkedIn: 'https://www.linkedin.com/in/jerome-osman/',
   },
   {
     id: 5,
@@ -289,7 +286,6 @@ const testimonials = [
     image: 'https://media.licdn.com/dms/image/D5603AQE1qYMUswBOAw/profile-displayphoto-shrink_400_400/0/1688151359384?e=1726099200&v=beta&t=rkHvuiSC9ww8BOxUhz2cqpIdzAoW6ZUEWbJDQW5W5OU',
     text: 'Communication was another strength that Barry brought to the table. He actively listened, communicated ideas clearly, and collaborated effectively with team members.',
     country: 'Rwanda',
-    // linkedIn: 'https://www.linkedin.com/in/innocent-n/',
   },
   {
     id: 6,
@@ -297,7 +293,6 @@ const testimonials = [
     image: 'https://avatars.githubusercontent.com/u/112749658?v=4',
     text: 'I learned too much from you and I can say that you are fantastic developer. Working with you is always a pleasure, hope that we can work on some project asap.',
     country: 'Macedonia',
-    // linkedIn: 'https://www.linkedin.com/in/marko-kermichiev/',
   },
 ];
 
@@ -328,21 +323,17 @@ const navLinks = [
     name: 'About',
     url: '/#about',
   },
-  {
-    id: 2,
-    name: 'Service',
-    url: '/#service',
-  },
+ 
   {
     id: 3,
     name: 'Scholarships',
     url: '/#scholarship',
   },
-  {
-    id: 4,
-    name: 'Testimonial',
-    url: '/#testimonial',
-  },
+  // {
+  //   id: 4,
+  //   name: 'Testimonial',
+  //   url: '/#testimonial',
+  // },
   {
     id: 5,
     name: 'Contact',

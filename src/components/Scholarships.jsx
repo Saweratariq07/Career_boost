@@ -54,31 +54,31 @@ const scholarshipData = [
 const ScholarshipCard = ({ category, icon, description, scholarships }) => {
   return (
     <motion.div
-      className="bg-white/90 backdrop-blur-lg rounded-2xl p-6 shadow-md border border-gray-200 hover:shadow-2xl transition-all max-w-3xl mx-auto"
+      className=" backdrop-blur-lg rounded-2xl p-6 shadow-md border border-gray-200 hover:shadow-2xl transition-all max-w-3xl mx-auto"
       whileHover={{ scale: 1.05 }}
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
     >
-      <div className="flex items-center space-x-4 mb-4">{icon}<h2 className="text-2xl font-bold text-gray-900">{category}</h2></div>
-      <p className="text-gray-600">{description}</p>
+      <div className="flex items-center space-x-4 mb-4">{icon}<h2 className="text-2xl font-bold ">{category}</h2></div>
+      <p className="">{description}</p>
       <ul className="mt-4 space-y-4">
         {scholarships.map((item, index) => (
           <motion.li
             key={index}
-            className="flex flex-col md:flex-row md:items-center justify-between bg-gray-100 p-4 rounded-lg border border-gray-300"
+            className="flex flex-col md:flex-row md:items-center justify-between  p-4 rounded-lg border border-gray-300"
             whileHover={{ x: 10 }}
             transition={{ duration: 0.3 }}
           >
             <div>
-              <span className="font-semibold text-gray-800">{item.name}</span>
-              <p className="text-sm text-gray-600">{item.eligibility}</p>
+              <span className="font-semibold ">{item.name}</span>
+              <p className="text-sm ">{item.eligibility}</p>
             </div>
             <div className="flex items-center space-x-3 mt-2 md:mt-0">
               <span className="text-red-500 text-sm font-semibold">{item.deadline}</span>
               <motion.a
                 href={item.link}
-                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+                className="bg-blue-600  px-4 py-2 rounded-lg hover:bg-blue-700 transition"
                 whileHover={{ scale: 1.1 }}
               >
                 Apply Now
@@ -98,11 +98,11 @@ const Scholarships = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="min-h-screen bg-gray-100 py-20 px-6"
+      className="min-h-screen  py-20 px-6"
     >
       <div className="text-center">
         <motion.h1
-          className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6"
+          className="text-4xl md:text-5xl font-extrabold mb-6"
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
@@ -110,7 +110,7 @@ const Scholarships = () => {
           🎓 Scholarship Opportunities
         </motion.h1>
         <motion.p
-          className="text-lg text-gray-700 max-w-2xl mx-auto"
+          className="text-lg  max-w-2xl mx-auto"
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1.2 }}
